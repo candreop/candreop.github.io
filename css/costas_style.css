@@ -1,0 +1,279 @@
+html {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size: 10pt;
+ margin: 0;
+ padding: 0;
+ color: black;
+ background:white;
+}
+
+ul,p,li {
+  margin-top: 0.25em;
+  border-top-width: 0;
+  padding-top: 0;
+  margin-bottom: 0.25em;
+  border-bottom-width: 0;
+  padding-bottom: 0;
+}
+
+<!--
+-->
+.profile-details-wrapper { display: table-row; }
+.profile-picture {
+  display: table-cell; 
+  vertical-align: top; 
+  margin-right: 10px;
+}
+.profile-details { display: table-cell; vertical-align: top; }
+
+<!--
+-->
+.contact-details-wrapper { display: table-row; }
+.contact-icon {
+  display: table-cell; 
+  vertical-align: top; 
+  margin-left:  20px;
+  margin-right: 50px;
+}
+.contact-details { display: table-cell; vertical-align: top; }
+
+
+#Header {
+  margin:2px 5px 2px 5px;
+  padding:5px;
+  line-height:22px;
+  letter-spacing:1px;
+  border-style:solid;
+  border-color:#dddddd;
+  border-width:1px;
+  border-top-style:solid;
+  border-top-color:#dddddd;
+  border-top-width:1px;
+  border-bottom-style:solid;
+  border-botton-color:#dddddd;
+  border-bottom-width:1px;
+  align="left";
+  background-color:white;
+  height:42px;
+  font: 400 30px/2.0 Helvetica, sans-serif;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+#Footer {
+  margin:2px 5px 2px 5px;
+  padding:5px;
+  letter-spacing:2px;
+  border-top-style:solid;
+  border-top-color:black;
+  border-top-width:1px;
+  align="left";
+  color: black;
+  background-color:white;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:10px; 
+}
+
+#NavBar {
+  margin:2px 5px 2px 5px;
+  padding:5px;
+  word-spacing:20px;
+  border-style:solid;
+  border-color:#dddddd;
+  border-width:0px;
+  border-top-style:solid;
+  border-top-color:#dddddd;
+  border-top-width:0px;
+  border-bottom-style:solid;
+  border-botton-color:#dddddd;
+  border-bottom-width:1px;
+  align="left";
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:14px; 
+  font-weight:Bold;
+  color: white;
+  background-color:#dddddd;;
+  height:15px;
+}
+#NavBar a {
+  font-weight: normal;
+  color: #0080FF;
+}
+#NavBar a:link {
+ text-decoration: none;
+}
+#NavBar a:visited {
+ text-decoration: none;
+}
+#NavBar a:hover {
+ text-decoration: underline;
+}
+
+<!--
+-->
+#MainIn1ColumnPage {
+ padding: 0 1px 0 1px;
+ margin: 0 0 0 0;
+ background: white;
+ align="left";
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size:12px; 
+}
+
+#MainIn2ColumnPage {
+ padding: 2px 4px 2px 4px;
+ margin: 0 255 0 0;
+ min-width=550px;
+ background: white;
+ align="left";
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size:12px; 
+ overflow:hidden;
+}
+
+<!--
+-->
+#TwitterFeed {
+ margin:0px 0px 3px 3px;
+ padding:5px;
+ width:250px;
+ float:right;
+ background:white;
+ color:white;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size:12px; 
+ align="left";
+}
+
+#ProjectContainer {
+  margin:2px 15px 2px 15px;
+  padding:5px;
+  border-left-style:solid;
+  border-left-color:black;
+  border-left-width:1px;
+  border-right-style:solid;
+  border-right-color:black;
+  border-right-width:1px;
+  border-top-style:solid;
+  border-top-color:black;
+  border-top-width:1px;
+  align="left";
+  color: black;
+  background-color:white;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.clsFooter {  
+  color: black; font-weight: bold; border-top:1px solid black;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  padding:2pt;
+  font-size:8pt; 
+}
+#TabHeader {   
+  background: #003366; color: white;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:small; 
+  border:1px solid #003366; width: 80%; padding: 2px
+}
+#BorderlessBox {  
+  padding:4px;
+  overflow:hidden
+}
+#Box1px {  
+  border:1px solid black; 
+  padding:4px;
+}
+#BorderTL1px {  
+  border-top:1px solid black; border-left:1px solid black; 
+  padding:4px;
+}
+#BorderTR1px {  
+  border-top:1px solid black; border-right:1px solid black; 
+  padding:4px;
+}
+#BorderT1px {  
+  border-top:1px solid black; 
+  padding:4px;
+}
+#FrontPageSmallText {  
+ font-size:9pt;padding:7px;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+#PageTitle {
+ color:#9F000F;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:11pt; 
+ font-style: italic;
+}
+
+#NowAt {
+ color: #8A0886;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+}
+
+#PrevAt {
+ color: #C4ABC3;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ font-style: italic;
+}
+
+#StudentSectionHeader {
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:12pt; 
+}
+
+#ThesisBox {  
+ line-height:140%;
+ width: 90%;
+ background: #F5F5F5;
+ color: black;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ padding:2pt;
+ border: none
+}
+
+.clsLeftMenuBlock {   
+  color:#990099; 
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:9pt; 
+}
+
+#ValorActivity {
+ color: #8A0886;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:11pt; 
+ font-style: italic;
+}
+
+<!--
+-->
+
+span.NewsName {   
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size:12px; 
+ font-weight:bold;
+ color: #8A0886
+}
+
+span.NewsEvent {   
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size:12px; 
+ font-weight:bold;
+ font-style:italic;
+ color:#0b5345;
+}
+
+span.NewsWork {   
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-size:12px; 
+ font-style:italic;
+ color:#424949;
+}
