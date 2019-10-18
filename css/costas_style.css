@@ -53,6 +53,137 @@ ul,p,li {
 }
 .contact-details { display: table-cell; vertical-align: top; }
 
+<!--
+-->
+
+#StudentSectionHeader {
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:12pt; 
+ width: 100%;
+}
+
+.group-member-wrapper { 
+  display: table-row; 
+  width: 100% 
+}
+.group-member-photo {
+  display: table-cell; 
+  vertical-align: top; 
+  margin-left:  20px;
+  margin-right: 20px;
+}
+.group-member-details { 
+  display: table-cell; 
+  vertical-align: top; 
+  width: 100%;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:9pt;
+  border-color:#dddddd;
+  border-width:1px;
+  border-top-style:solid;
+  border-top-color:#dddddd;
+  border-top-width:1px;
+}
+.group-member-details-no-line { 
+  display: table-cell; 
+  vertical-align: top; 
+  width: 100%;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:9pt;
+}
+
+#GroupMemberActivities {  
+ line-height:140%;
+ width: 90%;
+ background: #F5F5F5;
+ color: black;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ padding:2pt;
+ border: none
+}
+
+#GroupMemberDistinction {  
+ line-height:140%;
+ width: 90%;
+ background: white;
+ color: black;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:7pt; 
+ padding:2pt;
+ border: none
+}
+
+#GroupIntro {  
+ line-height:140%;
+ width: 90%;
+ background: white;
+ color: black;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ padding:2pt;
+ border: none
+}
+
+#GroupPI {  
+ line-height:140%;
+ width: 90%;
+ background: white;
+ color: black;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:6pt; 
+ padding:2pt;
+ border: none;
+ text-align:center;
+}
+
+#ThesisBox {  
+ line-height:140%;
+ width: 90%;
+ background: #F5F5F5;
+ color: black;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ padding:2pt;
+ border: none
+}
+
+#ThesisCoSupervisor {  
+ line-height:140%;
+ width: 90%;
+ background: white;
+ color: black;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-style: italic; 
+ font-size:8pt; 
+ padding:2pt;
+ border: none
+}
+
+#GroupMemberFunding {  
+ line-height:140%;
+ width: 90%;
+ background: white;
+ color: #696969;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ padding:2pt;
+ border: none
+}
+
+#NowAt {
+ color: #8A0886;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+}
+
+#PrevAt {
+ color: #C4ABC3;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ font-style: italic;
+}
+
 
 #Header {
   margin:2px 5px 2px 5px;
@@ -220,35 +351,6 @@ ul,p,li {
  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
  font-size:11pt; 
  font-style: italic;
-}
-
-#NowAt {
- color: #8A0886;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
- font-size:8pt; 
-}
-
-#PrevAt {
- color: #C4ABC3;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
- font-size:8pt; 
- font-style: italic;
-}
-
-#StudentSectionHeader {
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
- font-size:12pt; 
-}
-
-#ThesisBox {  
- line-height:140%;
- width: 90%;
- background: #F5F5F5;
- color: black;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
- font-size:8pt; 
- padding:2pt;
- border: none
 }
 
 .clsLeftMenuBlock {   

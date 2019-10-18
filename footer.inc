@@ -1,7 +1,7 @@
      <br />
 
      <div id="Footer">
-        &copy; Prof. Costas Andreopoulos, All rights reserved.	
+        Prof. Costas Andreopoulos < constantinos.andrepoulos \at cern.ch >
      </div>
 
 
