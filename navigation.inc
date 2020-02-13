@@ -12,9 +12,11 @@
         <A href="./roles.html">        Roles</A>
         <A href="./publications.html"> Publications</A>
         <A href="./talks.html">        Presentations</A>
+<!--
         <A href="./calendar.html">     Calendar</A>
+-->
+        <A href="https://doodle.com/mm/costasandreopoulos/book-a-time" target="_top">     Calendar</A>
         <A href="./contact.html">      Contact</A>
       </center>
     </div>
-
 

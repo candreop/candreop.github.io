@@ -1,7 +1,7 @@
      <br />
 
      <div id="Footer">
-        Prof. Costas Andreopoulos < constantinos.andrepoulos \at cern.ch >
+        Prof. Costas Andreopoulos < constantinos.andreopoulos \at cern.ch >
      </div>
 
 
