@@ -209,7 +209,7 @@ ul,p,li {
 #Footer {
   margin:2px 5px 2px 5px;
   padding:5px;
-  letter-spacing:2px;
+  letter-spacing:1px;
   border-top-style:solid;
   border-top-color:black;
   border-top-width:1px;
@@ -217,7 +217,7 @@ ul,p,li {
   color: black;
   background-color:white;
   font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size:10px; 
+  font-size:11px; 
 }
 
 #NavBar {
