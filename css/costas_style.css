@@ -21,8 +21,6 @@ ul,p,li {
   padding-bottom: 0;
 }
 
-<!--
--->
 .profile-details-wrapper { display: table-row; }
 .profile-picture {
   display: table-cell; 
@@ -32,6 +30,8 @@ ul,p,li {
 .profile-details { display: table-cell; vertical-align: top; }
 
 <!--
+  Style for news items
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 .news-wrapper { display: table-row; }
 .news-picture {
@@ -43,6 +43,8 @@ ul,p,li {
 .news-details { display: table-cell; vertical-align: top; }
 
 <!--
+  Contact details page
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 .contact-details-wrapper { display: table-row; }
 .contact-icon {
@@ -55,14 +57,13 @@ ul,p,li {
 
 
 <!--
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   Style used in the presentation of my group
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 
 #StudentSectionHeader {
  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
- font-size:12pt; 
+ font-size:14pt; 
  width: 100%;
 }
 
@@ -131,7 +132,7 @@ ul,p,li {
  background: white;
  color: black;
  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
- font-size:8pt; 
+ font-size:9pt; 
  padding:2pt;
  border: none
 }
@@ -196,6 +197,35 @@ ul,p,li {
  font-style: italic;
 }
 
+.centerGroupImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.photo_gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.photo_gallery_text {  
+ line-height:140%;
+ width: 90%;
+ background: white;
+ color: black;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ padding:4pt;
+ border: none;
+}
+
+.job_title_photo_gallery_text {  
+ color: #F08080;
+}
+
+<!--
+-->
 
 #Header {
   margin:2px 5px 2px 5px;
@@ -320,6 +350,10 @@ ul,p,li {
   background-color:white;
   font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
 }
+
+<!--
+  Misc other
+-->
 
 .clsFooter {  
   color: black; font-weight: bold; border-top:1px solid black;
