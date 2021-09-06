@@ -204,6 +204,11 @@ ul,p,li {
   width: 80%;
 }
 
+.news_photo_gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
 .photo_gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
