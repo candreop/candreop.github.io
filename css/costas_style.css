@@ -48,7 +48,7 @@ ul,p,li {
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 .contact-details-wrapper { display: table-row; }
-.contact-details-cell    { display: table-cell; vertical-align: top;  margin-right: 50px; }
+.contact-details-cell    { display: table-cell; vertical-align: top;  margin-right: 5px; }
 
 .contact-icon {
   display: table-cell; 
