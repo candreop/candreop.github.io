@@ -52,6 +52,7 @@ ul,p,li {
 .contact-details-cell { 
   display: table-cell; 
   vertical-align: top; 
+  margin-left: 30px;
 }
 
 .contact-icon {
