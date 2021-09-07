@@ -34,7 +34,6 @@ ul,p,li {
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 .news-wrapper { display: table-row; }
-
 .news-picture {
   display: table-cell; 
   vertical-align: top; 
@@ -47,8 +46,13 @@ ul,p,li {
   Contact details page
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
-.contact-details-wrapper { display: table-row; }
-.contact-details-cell    { display: table-cell; vertical-align: top; }
+.contact-details-wrapper { 
+  display: table-row; 
+}
+.contact-details-cell { 
+  display: table-cell; 
+  vertical-align: top; 
+}
 
 .contact-icon {
   display: table-cell; 
