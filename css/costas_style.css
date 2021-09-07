@@ -53,6 +53,7 @@ ul,p,li {
   display: table-cell; 
   vertical-align: top; 
   margin-left: 30px;
+  margin-right: 50px;
 }
 
 .contact-icon {
