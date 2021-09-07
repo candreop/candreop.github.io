@@ -56,15 +56,6 @@ ul,p,li {
   margin-right: 50px;
 }
 
-.contact-icon {
-  display: table-cell; 
-  vertical-align: top; 
-  margin-left:  20px;
-  margin-right: 50px;
-}
-.contact-details { display: table-cell; vertical-align: top; }
-
-
 <!--
   Style used in the presentation of my group
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
