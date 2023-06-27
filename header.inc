@@ -3,7 +3,9 @@
      <title>
         Prof. Costas Andreopoulos, Neutrino Physicist at the University of Liverpool and STFC Rutherford Appleton Laboratory
      </title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+-->
      <meta name="description" content=
           "Prof. Costas Andreopoulos's (University of Liverpool and STFC Rutherford Appleton Laboratory) home page.
            Links to work on T2K neutrino oscillation physics analysis, GENIE / neutrino interaction phenomenology
