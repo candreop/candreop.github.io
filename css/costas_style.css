@@ -196,6 +196,19 @@ ul,p,li {
  font-style: italic;
 }
 
+#FirstPostPhDJob {
+ color: #8A0886;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+}
+
+#CurrentJob {
+ color: #C4ABC3;
+ font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-size:8pt; 
+ font-style: italic;
+}
+
 .centerGroupImage {
   display: block;
   margin-left: auto;
