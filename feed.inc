@@ -22,14 +22,8 @@ Twitter
 IG
 -->
 
-<A href="https://www.instagram.com/livunineutrino" target="_top">
-  <img src="./images/icons/instagram_01.png" valign="top" width="20px" height="20px" alt="Group Instagram account">
-  Group Instagram account feed</A>
-
-<br />
-<br />
-
 <!-- Place <div> tag where you want the feed to appear -->
+
 <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div><!-- The Javascript can be moved to the end of the html page before the 
 </body> tag --><script type="text/javascript">
 /* curator-feed-default-feed-layout */
@@ -39,6 +33,11 @@ i.src="https://cdn.curator.io/published/fa84d282-3dc5-4442-a3c5-829b83c1ec54.js"
 e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
 })();
 </script>
+
+<br />
+<img src="./images/icons/instagram_01.png" valign="top" width="16px" height="16px">
+<A href="https://www.instagram.com/livunineutrino" target="_top">
+  Andreopoulos group IG feed</A>
 
 </div>
 

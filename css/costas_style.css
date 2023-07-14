@@ -250,16 +250,17 @@ ul,p,li {
   line-height:22px;
   letter-spacing:1px;
   border-style:solid;
-  border-color:#dddddd;
+  border-color:#36454F;
   border-width:1px;
   border-top-style:solid;
-  border-top-color:#dddddd;
+  border-top-color:#36454F;
   border-top-width:1px;
   border-bottom-style:solid;
-  border-botton-color:#dddddd;
+  border-botton-color:#36454F;
   border-bottom-width:1px;
   align="left";
-  background-color:white;
+  background-color:#36454F;
+  color:white;
   height:42px;
   font: 400 30px/2.0 Helvetica, sans-serif;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
@@ -282,7 +283,7 @@ ul,p,li {
 #NavBar {
   margin:2px 5px 2px 5px;
   padding:5px;
-  word-spacing:20px;
+  word-spacing:12px;
   border-style:solid;
   border-color:#dddddd;
   border-width:0px;
@@ -341,7 +342,7 @@ ul,p,li {
 #SocialNetworkFeed {
  margin:0px 0px 3px 3px;
  padding:5px;
- width:200px;
+ width:180px;
  float:right;
  background:white;
  color:white;
