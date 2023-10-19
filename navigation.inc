@@ -22,7 +22,7 @@
           Publications</A>
         <A href="./talks.html">        
           Presentations</A>
-        <A href="https://doodle.com/mm/costasandreopoulos/book-a-time" target="_top">     
+        <A href="./calendar.html">     
           Calendar</A>
         <A href="./contact.html">      
           Contact</A>
