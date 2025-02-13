@@ -1,7 +1,7 @@
      <br />
 
      <div id="Footer">
-        &copy; 2023
+        &copy; 2025
         Prof. Costas Andreopoulos < c.andreopoulos \at cern.ch >
      </div>
 
