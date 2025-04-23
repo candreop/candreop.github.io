@@ -243,45 +243,6 @@ ul,p,li {
 }
 
 <!--
-
-#Header {
-  margin:2px 5px 2px 5px;
-  padding:5px;
-  line-height:22px;
-  letter-spacing:1px;
-  border-style:solid;
-  border-color:#36454F;
-  border-width:1px;
-  border-top-style:solid;
-  border-top-color:#36454F;
-  border-top-width:1px;
-  border-bottom-style:solid;
-  border-botton-color:#36454F;
-  border-bottom-width:1px;
-  align="left";
-  background-color:#36454F;
-  color:white;
-  height:42px;
-  font: 400 30px/2.0 Helvetica, sans-serif;
-  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-}
-
-#Footer {
-  margin:2px 5px 2px 5px;
-  padding:5px;
-  letter-spacing:1px;
-  border-top-style:solid;
-  border-top-color:black;
-  border-top-width:1px;
-  align="left";
-  color: black;
-  background-color:white;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size:11px; 
-}
--->
-
-<!--
 -->
 #MainIn1ColumnPage {
  padding: 0 1px 0 1px;
@@ -478,14 +439,14 @@ footer {
   border-top-color:#dddddd;
   border-top-width:0px;
   border-bottom-style:solid;
-  border-botton-color:#dddddd;
+  border-bottom-color:#dddddd;
   border-bottom-width:1px;
   align="left";
   font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
   font-size:13px; 
   font-weight:Bold;
   color: white;
-  background-color:#dddddd;;
+  background-color:#dddddd;
   height:15px;
 }
 .navbar ul {
