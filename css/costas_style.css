@@ -29,6 +29,7 @@ ul,p,li {
 }
 .profile-details { display: table-cell; vertical-align: top; }
 
+<!--
 header {
   margin:2px 5px 2px 5px;
   padding:5px;
@@ -49,6 +50,36 @@ header {
   height:42px;
   font: 400 30px/2.0 Helvetica, sans-serif;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+-->
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #36454F;
+  color: white;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+  border-bottom: 2px solid #222;
+}
+
+.header-left i {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  font-weight: normal;
+}
+
+.header-right img {
+  height: 44px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ddd;
 }
 
 footer {
