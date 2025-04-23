@@ -786,7 +786,28 @@
 
    </div> <!-- MainIn2ColumnPage -->
 
-   <!--#include FILE="./footer.inc"-->
+   <!-- Footer include -->
+   <div id="footer"></div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {	    
+     fetch('includes/header.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('header').innerHTML = text);
+
+     fetch('includes/navigation.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('navigation').innerHTML = text);
+
+     fetch('includes/ig_feed.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('ig_feed').innerHTML = text);
+
+     fetch('includes/footer.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('footer').innerHTML = text);
+    });
+    </script>
 
   </body>
 </html>
