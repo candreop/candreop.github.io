@@ -29,7 +29,7 @@
     <div id="header"></div>
     <div id="navigation"></div>
     
-    <div id="MainIn2ColumnPage">
+    <div id="MainIn1ColumnPage">
 
           <div id="StudentSectionHeader">
             <img src="./images/icons/prospective_students.png" style="vertical-align:middle" width="70px">
@@ -784,7 +784,7 @@
 
           <br />
 
-   </div> <!-- MainIn2ColumnPage -->
+   </div> <!-- MainIn1ColumnPage -->
 
    <!-- Footer include -->
    <div id="footer"></div>
@@ -798,10 +798,6 @@
      fetch('includes/navigation.html')
        .then(res => res.text())
        .then(text => document.getElementById('navigation').innerHTML = text);
-
-     fetch('includes/ig_feed.html')
-       .then(res => res.text())
-       .then(text => document.getElementById('ig_feed').innerHTML = text);
 
      fetch('includes/footer.html')
        .then(res => res.text())
