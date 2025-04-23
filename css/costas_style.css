@@ -146,6 +146,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-self: center;
   gap: 0.6rem;
   font-size: 1.3rem;
   margin-top: 0.5rem;
