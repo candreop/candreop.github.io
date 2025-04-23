@@ -61,25 +61,36 @@ header {
   background-color: #36454F;
   color: white;
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 1.6rem;
-  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
   border-bottom: 2px solid #222;
 }
 
-.header-left i {
-  font-size: 1rem;
-  margin-left: 0.5rem;
-  font-weight: normal;
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.header-right img {
-  height: 44px;
+.name-line {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+.name-line i {
+  font-size: 1rem;
+  margin-left: 0.4rem;
+  font-weight: normal;
 }
 
 .subtitle {
   font-size: 1rem;
   font-weight: 300;
-  color: #ddd;
+  color: #ccc;
+  margin-top: 0.3rem;
+}
+
+.header-logo img {
+  height: 44px;
 }
 
 footer {
