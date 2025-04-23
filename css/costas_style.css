@@ -29,34 +29,6 @@ ul,p,li {
 }
 .profile-details { display: table-cell; vertical-align: top; }
 
-<!--
-  Style for navigation bar
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-.navbar {
-  background: #003366;
-  padding: 0.5rem;
-}
-.navbar ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-.navbar li {
-  margin: 0 0.8rem;
-}
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 0.95rem;
-  font-weight: bold;
-}
-.navbar a:hover {
-  text-decoration: underline;
-}
 
 <!--
   Style for news items
@@ -271,7 +243,6 @@ ul,p,li {
 }
 
 <!--
--->
 
 #Header {
   margin:2px 5px 2px 5px;
@@ -308,41 +279,7 @@ ul,p,li {
   font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
   font-size:11px; 
 }
-
-#NavBar {
-  margin:2px 5px 2px 5px;
-  padding:5px;
-  word-spacing:12px;
-  border-style:solid;
-  border-color:#dddddd;
-  border-width:0px;
-  border-top-style:solid;
-  border-top-color:#dddddd;
-  border-top-width:0px;
-  border-bottom-style:solid;
-  border-botton-color:#dddddd;
-  border-bottom-width:1px;
-  align="left";
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size:13px; 
-  font-weight:Bold;
-  color: white;
-  background-color:#dddddd;;
-  height:15px;
-}
-#NavBar a {
-  font-weight: normal;
-  color: #0080FF;
-}
-#NavBar a:link {
- text-decoration: none;
-}
-#NavBar a:visited {
- text-decoration: none;
-}
-#NavBar a:hover {
- text-decoration: underline;
-}
+-->
 
 <!--
 -->
@@ -484,6 +421,10 @@ span.NewsWork {
  color:#424949;
 }
 
+<!--
+  Header and footer
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
 
 header {
   margin:2px 5px 2px 5px;
@@ -519,5 +460,56 @@ footer {
   background-color:white;
   font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
   font-size:11px; 
+}
+
+<!--
+  Navigation bar
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+.navbar {
+  margin:2px 5px 2px 5px;
+  padding:5px;
+  word-spacing:12px;
+  border-style:solid;
+  border-color:#dddddd;
+  border-width:0px;
+  border-top-style:solid;
+  border-top-color:#dddddd;
+  border-top-width:0px;
+  border-bottom-style:solid;
+  border-botton-color:#dddddd;
+  border-bottom-width:1px;
+  align="left";
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:13px; 
+  font-weight:Bold;
+  color: white;
+  background-color:#dddddd;;
+  height:15px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  margin: 0 0.8rem;
+}
+.navbar a {
+  font-weight: normal;
+  color: #0080FF;
+}
+.navbar a:link {
+ text-decoration: none;
+}
+.navbar a:visited {
+ text-decoration: none;
+}
+.navbar a:hover {
+ text-decoration: underline;
 }
 
