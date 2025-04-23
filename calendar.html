@@ -41,9 +41,8 @@ style="border: 0" width="100%" height="600" frameborder="0"></iframe>
       <br />
     </div>
 
- <!-- Footer include -->
+    <!-- Footer include -->
     <div id="footer"></div>
-
 
     <script>
     document.addEventListener('DOMContentLoaded', () => {	    
@@ -54,10 +53,6 @@ style="border: 0" width="100%" height="600" frameborder="0"></iframe>
      fetch('includes/navigation.html')
        .then(res => res.text())
        .then(text => document.getElementById('navigation').innerHTML = text);
-
-     fetch('includes/ig_feed.html')
-       .then(res => res.text())
-       .then(text => document.getElementById('ig_feed').innerHTML = text);
 
      fetch('includes/footer.html')
        .then(res => res.text())
