@@ -28,6 +28,9 @@
     <div id="header"></div>
     <div id="navigation"></div>
 
+    <!-- Social media feed -->
+    <div id="ig_feed"></div>
+
 
     <div id="MainIn2ColumnPage">
 
@@ -208,6 +211,10 @@
      fetch('includes/navigation.html')
        .then(res => res.text())
        .then(text => document.getElementById('navigation').innerHTML = text);
+
+     fetch('includes/ig_feed.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('ig_feed').innerHTML = text);
 
      fetch('includes/footer.html')
        .then(res => res.text())
