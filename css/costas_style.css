@@ -78,6 +78,26 @@ footer {
 -->
 
 .navbar {
+  background-color: #003366; /* dark blue for strong contrast */
+  height: auto;
+  padding: 1em;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navbar a {
+  color: white;               /* easy to read on dark background */
+  margin: 0 0.8rem;
+}
+
+.navbar a:hover {
+  color: #66ccff;             /* highlight on hover */
+  text-decoration: underline;
+}
+
+<!--
+.navbar {
   margin:2px 5px 2px 5px;
   padding:5px;
   word-spacing:12px;
@@ -98,6 +118,8 @@ footer {
   background-color:#dddddd;
   height:15px;
 }
+-->
+
 .navbar ul {
   list-style: none;
   display: flex;
@@ -109,19 +131,25 @@ footer {
 .navbar li {
   margin: 0 0.8rem;
 }
+
+<!--
 .navbar a {
   font-weight: normal;
   color: #0080FF;
 }
+-->
+
 .navbar a:link {
  text-decoration: none;
 }
 .navbar a:visited {
  text-decoration: none;
 }
+<!--
 .navbar a:hover {
  text-decoration: underline;
 }
+-->
 
 
 <!--
