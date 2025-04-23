@@ -145,9 +145,9 @@ footer {
 .icon-column {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.6rem;
   font-size: 1.3rem;
-  align-items: center;
   margin-top: 0.5rem;
 }
 
@@ -166,18 +166,6 @@ footer {
   max-width: 600px;
   font-size: 1rem;
   line-height: 1.6;
-}
-
-@media (max-width: 768px) {
-  .intro-block {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .text-column {
-    text-align: left;
-  }
 }
 
 <!--
