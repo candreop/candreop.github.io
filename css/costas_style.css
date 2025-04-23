@@ -30,6 +30,35 @@ ul,p,li {
 .profile-details { display: table-cell; vertical-align: top; }
 
 <!--
+  Style for navigation bar
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+.navbar {
+  background: #003366;
+  padding: 0.5rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  margin: 0 0.8rem;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+<!--
   Style for news items
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
@@ -454,3 +483,19 @@ span.NewsWork {
  font-style:italic;
  color:#424949;
 }
+
+
+footer {
+  margin:2px 5px 2px 5px;
+  padding:5px;
+  letter-spacing:1px;
+  border-top-style:solid;
+  border-top-color:black;
+  border-top-width:1px;
+  align="left";
+  color: black;
+  background-color:white;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px; 
+}
+
