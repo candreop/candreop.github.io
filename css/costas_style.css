@@ -29,30 +29,6 @@ ul,p,li {
 }
 .profile-details { display: table-cell; vertical-align: top; }
 
-<!--
-header {
-  margin:2px 5px 2px 5px;
-  padding:5px;
-  line-height:22px;
-  letter-spacing:1px;
-  border-style:solid;
-  border-color:#36454F;
-  border-width:1px;
-  border-top-style:solid;
-  border-top-color:#36454F;
-  border-top-width:1px;
-  border-bottom-style:solid;
-  border-bottom-color:#36454F;
-  border-bottom-width:1px;
-  align="left";
-  background-color:#36454F;
-  color:white;
-  height:42px;
-  font: 400 30px/2.0 Helvetica, sans-serif;
-  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-}
--->
-
 header {
   display: flex;
   justify-content: space-between;
@@ -110,7 +86,11 @@ footer {
 
 #navigation {
   background-color: #003366;
-  padding: 0.7rem 1rem;
+  padding: 0; /* remove uneven padding */
+  display: flex;
+  align-items: center; /* vertically centers children */
+  justify-content: center; /* centers links horizontally */
+  min-height: 48px; /* clean, fixed height for the bar */
   font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
   font-size: 0.95rem;
   font-weight: bold;
@@ -118,31 +98,31 @@ footer {
 }
 
 #navigation ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 #navigation li {
-  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
 #navigation a {
+  display: inline-block;
   color: white;
   text-decoration: none;
-  padding: 0.5rem 0.7rem;
-  border-radius: 5px;
-  transition: background 0.2s, color 0.2s;
+  padding: 0.5rem 0.7rem; /* symmetric vertical padding */
+  border-radius: 4px;
+  transition: background 0.2s ease;
+  line-height: 1; /* avoid spacing mismatch */
 }
 
 #navigation a:hover {
   background-color: #0055aa;
-  color: #ffffff;
-  text-decoration: none;
+  color: white;
 }
 
 <!--
