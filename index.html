@@ -204,6 +204,7 @@
 
 
     <script>
+    document.addEventListener('DOMContentLoaded', () => {	    
      fetch('includes/header.html')
        .then(res => res.text())
        .then(text => document.getElementById('header').innerHTML = text);
@@ -219,7 +220,7 @@
      fetch('includes/footer.html')
        .then(res => res.text())
        .then(text => document.getElementById('footer').innerHTML = text);
-
+    });
     </script>
 
     <script type="text/javascript">
