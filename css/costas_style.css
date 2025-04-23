@@ -4,7 +4,7 @@ html {
 }
 
 body {
- font-family: 'Roboto', "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-family: 'Roboto', Helvetica, sans-serif;
  font-size: 12pt;
  margin: 0;
  padding: 0;
@@ -80,7 +80,7 @@ footer {
   align="left";
   color: black;
   background-color:white;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-size:11px; 
 }
 
@@ -90,8 +90,8 @@ footer {
   display: flex;
   align-items: center; /* vertically centers children */
   justify-content: center; /* centers links horizontally */
-  min-height: 48px; /* clean, fixed height for the bar */
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  min-height: 40px; /* clean, fixed height for the bar */
+  font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 0.95rem;
   font-weight: bold;
   border-bottom: 2px solid #001F3F;
@@ -194,7 +194,7 @@ footer {
 -->
 
 #StudentSectionHeader {
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:14pt; 
  width: 100%;
 }
@@ -213,7 +213,7 @@ footer {
   display: table-cell; 
   vertical-align: top; 
   width: 100%;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif; 
   font-size:9pt;
   border-color:#dddddd;
   border-width:1px;
@@ -232,7 +232,7 @@ footer {
   display: table-cell; 
   vertical-align: top; 
   width: 100%;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family:'Roboto', Helvetica, sans-serif; 
   font-size:9pt;
 }
 
@@ -241,7 +241,7 @@ footer {
  width: 90%;
  background: #F5F5F5;
  color: black;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
  padding:2pt;
  border: none
@@ -252,7 +252,7 @@ footer {
  width: 90%;
  background: white;
  color: black;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
  padding:2pt;
  border: none
@@ -263,7 +263,7 @@ footer {
  width: 90%;
  background: white;
  color: black;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:9pt; 
  padding:2pt;
  border: none
@@ -274,7 +274,7 @@ footer {
  width: 90%;
  background: white;
  color: black;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:6pt; 
  padding:2pt;
  border: none;
@@ -286,7 +286,7 @@ footer {
  width: 90%;
  background: #F5F5F5;
  color: black;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
  padding:2pt;
  border: none
@@ -297,7 +297,7 @@ footer {
  width: 90%;
  background: white;
  color: black;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-style: italic; 
  font-size:8pt; 
  padding:2pt;
@@ -310,7 +310,7 @@ footer {
  background: white;
  background-color: transparent;
  color: #696969;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
  padding:2pt;
  border: none
@@ -318,26 +318,26 @@ footer {
 
 #NowAt {
  color: #8A0886;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
 }
 
 #PrevAt {
  color: #C4ABC3;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
  font-style: italic;
 }
 
 #FirstPostPhDJob {
  color: #8A0886;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
 }
 
 #CurrentJob {
  color: #C4ABC3;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
  font-style: italic;
 }
@@ -364,7 +364,7 @@ footer {
  width: 90%;
  background: white;
  color: black;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:8pt; 
  padding:4pt;
  border: none;
@@ -381,7 +381,7 @@ footer {
  margin: 0 0 0 0;
  background: white;
  align="left";
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:12px; 
 }
 
@@ -391,7 +391,7 @@ footer {
  min-width=550px;
  background: white;
  align="left";
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:12px; 
  overflow:hidden;
 }
@@ -405,7 +405,7 @@ footer {
  float:right;
  background:white;
  color:white;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:12px; 
  align="left";
 }
@@ -425,7 +425,7 @@ footer {
   align="left";
   color: black;
   background-color:white;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif; 
 }
 
 <!--
@@ -434,13 +434,13 @@ footer {
 
 .clsFooter {  
   color: black; font-weight: bold; border-top:1px solid black;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif; 
   padding:2pt;
   font-size:8pt; 
 }
 #TabHeader {   
   background: #003366; color: white;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif; 
   font-size:small; 
   border:1px solid #003366; width: 80%; padding: 2px
 }
@@ -466,25 +466,25 @@ footer {
 }
 #FrontPageSmallText {  
  font-size:9pt;padding:7px;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-family: 'Roboto', Helvetica, sans-serif; 
 }
 
 #PageTitle {
  color:#9F000F;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif;  
  font-size:11pt; 
  font-style: italic;
 }
 
 .clsLeftMenuBlock {   
   color:#990099; 
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', Helvetica, sans-serif; 
   font-size:9pt; 
 }
 
 #ValorActivity {
  color: #8A0886;
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:11pt; 
  font-style: italic;
 }
@@ -493,14 +493,14 @@ footer {
 -->
 
 span.NewsName {   
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:12px; 
  font-weight:bold;
  color: #8A0886
 }
 
 span.NewsEvent {   
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:12px; 
  font-weight:bold;
  font-style:italic;
@@ -508,7 +508,7 @@ span.NewsEvent {
 }
 
 span.NewsWork {   
- font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+ font-family: 'Roboto', Helvetica, sans-serif; 
  font-size:12px; 
  font-style:italic;
  color:#424949;
