@@ -29,13 +29,6 @@ ul,p,li {
 }
 .profile-details { display: table-cell; vertical-align: top; }
 
-
-
-<!--
-  Header and footer
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-
 header {
   margin:2px 5px 2px 5px;
   padding:5px;
@@ -72,11 +65,6 @@ footer {
   font-size:11px; 
 }
 
-<!--
-  Navigation bar
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-
 #navigation {
   margin:2px 5px 2px 5px;
   padding:5px;
@@ -111,81 +99,6 @@ footer {
 #navigation a:hover {
  text-decoration: underline;
 }
-
-#navbar {
-  background-color: #003366; /* dark blue for strong contrast */
-  height: auto;
-  padding: 1em;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-#navbar a {
-  color: white;               /* easy to read on dark background */
-  margin: 0 0.8rem;
-}
-
-#navbar a:hover {
-  color: #66ccff;             /* highlight on hover */
-  text-decoration: underline;
-}
-
-<!--
-#navbar {
-  margin:2px 5px 2px 5px;
-  padding:5px;
-  word-spacing:12px;
-  border-style:solid;
-  border-color:#dddddd;
-  border-width:0px;
-  border-top-style:solid;
-  border-top-color:#dddddd;
-  border-top-width:0px;
-  border-bottom-style:solid;
-  border-bottom-color:#dddddd;
-  border-bottom-width:1px;
-  align="left";
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size:13px; 
-  font-weight:Bold;
-  color: white;
-  background-color:#dddddd;
-  height:15px;
-}
--->
-
-#navbar ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-.navbar li {
-  margin: 0 0.8rem;
-}
-
-<!--
-.navbar a {
-  font-weight: normal;
-  color: #0080FF;
-}
--->
-
-.navbar a:link {
- text-decoration: none;
-}
-.navbar a:visited {
- text-decoration: none;
-}
-<!--
-.navbar a:hover {
- text-decoration: underline;
-}
--->
-
 
 <!--
   Style for news items
