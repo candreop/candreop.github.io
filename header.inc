@@ -1,16 +1,15 @@
   <head>
+     <link rel="canonical" href="https://andreopoulos.eu">
      <link type="text/css" rel="stylesheet" href="./css/costas_style.css" />
      <title>
        Costas Andreopoulos, 
        Neutrino Physicist and Professor of Experimental Particle Physics at the University of Liverpool.
      </title>
-<!-- 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
--->
+
      <meta name="description" content=
-          "Prof. Costas Andreopoulos's (University of Liverpool) home page.">
+          "Prof. Costas Andreopoulos' (University of Liverpool) Home Page.">
      <meta http-equiv="Keywords" content=
-         "costas.andreopoulos.eu, Costas, Constantinos, Andreopoulos, 
+         "https://andreopoulos.eu, Costas, Kostas, Constantinos, Konstantinos, Andreopoulos, Professor,
           High Energy Physics, HEP, Particle Physics, Neutrino, 
           Quantum Computing, Quantum Error Correction, Quantum Machine Learning,
           Machine Learning, Deep Learning, Neural Networks,
