@@ -30,6 +30,100 @@ ul,p,li {
 .profile-details { display: table-cell; vertical-align: top; }
 
 
+
+<!--
+  Header and footer
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+header {
+  margin:2px 5px 2px 5px;
+  padding:5px;
+  line-height:22px;
+  letter-spacing:1px;
+  border-style:solid;
+  border-color:#36454F;
+  border-width:1px;
+  border-top-style:solid;
+  border-top-color:#36454F;
+  border-top-width:1px;
+  border-bottom-style:solid;
+  border-bottom-color:#36454F;
+  border-bottom-width:1px;
+  align="left";
+  background-color:#36454F;
+  color:white;
+  height:42px;
+  font: 400 30px/2.0 Helvetica, sans-serif;
+  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+}
+
+footer {
+  margin:2px 5px 2px 5px;
+  padding:5px;
+  letter-spacing:1px;
+  border-top-style:solid;
+  border-top-color:black;
+  border-top-width:1px;
+  align="left";
+  color: black;
+  background-color:white;
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:11px; 
+}
+
+<!--
+  Navigation bar
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+
+.navbar {
+  margin:2px 5px 2px 5px;
+  padding:5px;
+  word-spacing:12px;
+  border-style:solid;
+  border-color:#dddddd;
+  border-width:0px;
+  border-top-style:solid;
+  border-top-color:#dddddd;
+  border-top-width:0px;
+  border-bottom-style:solid;
+  border-bottom-color:#dddddd;
+  border-bottom-width:1px;
+  align="left";
+  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size:13px; 
+  font-weight:Bold;
+  color: white;
+  background-color:#dddddd;
+  height:15px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  margin: 0 0.8rem;
+}
+.navbar a {
+  font-weight: normal;
+  color: #0080FF;
+}
+.navbar a:link {
+ text-decoration: none;
+}
+.navbar a:visited {
+ text-decoration: none;
+}
+.navbar a:hover {
+ text-decoration: underline;
+}
+
+
 <!--
   Style for news items
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -380,97 +474,5 @@ span.NewsWork {
  font-size:12px; 
  font-style:italic;
  color:#424949;
-}
-
-<!--
-  Header and footer
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-
-header {
-  margin:2px 5px 2px 5px;
-  padding:5px;
-  line-height:22px;
-  letter-spacing:1px;
-  border-style:solid;
-  border-color:#36454F;
-  border-width:1px;
-  border-top-style:solid;
-  border-top-color:#36454F;
-  border-top-width:1px;
-  border-bottom-style:solid;
-  border-botton-color:#36454F;
-  border-bottom-width:1px;
-  align="left";
-  background-color:#36454F;
-  color:white;
-  height:42px;
-  font: 400 30px/2.0 Helvetica, sans-serif;
-  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
-}
-
-footer {
-  margin:2px 5px 2px 5px;
-  padding:5px;
-  letter-spacing:1px;
-  border-top-style:solid;
-  border-top-color:black;
-  border-top-width:1px;
-  align="left";
-  color: black;
-  background-color:white;
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size:11px; 
-}
-
-<!--
-  Navigation bar
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-
-.navbar {
-  margin:2px 5px 2px 5px;
-  padding:5px;
-  word-spacing:12px;
-  border-style:solid;
-  border-color:#dddddd;
-  border-width:0px;
-  border-top-style:solid;
-  border-top-color:#dddddd;
-  border-top-width:0px;
-  border-bottom-style:solid;
-  border-bottom-color:#dddddd;
-  border-bottom-width:1px;
-  align="left";
-  font-family: "Trebuchet MS", Tahoma, Verdana, Arial, Helvetica, sans-serif;
-  font-size:13px; 
-  font-weight:Bold;
-  color: white;
-  background-color:#dddddd;
-  height:15px;
-}
-.navbar ul {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-.navbar li {
-  margin: 0 0.8rem;
-}
-.navbar a {
-  font-weight: normal;
-  color: #0080FF;
-}
-.navbar a:link {
- text-decoration: none;
-}
-.navbar a:visited {
- text-decoration: none;
-}
-.navbar a:hover {
- text-decoration: underline;
 }
 
