@@ -1,5 +1,5 @@
 
 **Source for the home web page of Professor Costas Anderopoulos**
 
-Copyright (c) 2018-2019, Costas Andreopoulos
+Copyright (c) 2025, Costas Andreopoulos
 
