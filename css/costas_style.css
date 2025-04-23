@@ -138,7 +138,7 @@ footer {
 }
 
 .profile-pic {
-  width: 200px;
+  width: 210px;
   border-radius: 50%;
 }
 
@@ -166,7 +166,7 @@ footer {
 .text-column {
   max-width: 600px;
   font-family: 'Roboto', Helvetica, sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   line-height: 1.6;
 }
 
