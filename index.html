@@ -11,8 +11,9 @@
 
 <body>
     
-    <!-- Header include -->
+    <!-- Header and navigation bar -->
     <div id="header"></div>
+    <div id="navigation"></div>
 
 
     <div id="MainIn2ColumnPage">
@@ -185,10 +186,15 @@
     <!-- Footer include -->
     <div id="footer"></div>
 
+
     <script>
      fetch('includes/header.html')
        .then(res => res.text())
        .then(text => document.getElementById('header').innerHTML = text);
+
+     fetch('includes/navigation.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('navigation').innerHTML = text);
 
      fetch('includes/footer.html')
        .then(res => res.text())
