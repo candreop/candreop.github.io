@@ -32,19 +32,38 @@
     <div id="MainIn1ColumnPage">
       <br />
       <div> 
-
 <!-- Google Calendar Appointment Scheduling begin -->
 <iframe 
 src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1vGNS0Kk6bNV3xtOlTvp6pgxmwBqv07Qszpu-NxDqFEtO1VitBQKK8kg3q26p3h_cz4OFeM8d0?gv=true" 
 style="border: 0" width="100%" height="600" frameborder="0"></iframe>
 <!-- end Google Calendar Appointment Scheduling -->
-
       </div>
       <br />
     </div>
 
+ <!-- Footer include -->
+    <div id="footer"></div>
 
-   <!--#include FILE="./footer.inc"-->
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {	    
+     fetch('includes/header.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('header').innerHTML = text);
+
+     fetch('includes/navigation.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('navigation').innerHTML = text);
+
+     fetch('includes/ig_feed.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('ig_feed').innerHTML = text);
+
+     fetch('includes/footer.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('footer').innerHTML = text);
+    });
+    </script>
 
   </body>
 </html>
