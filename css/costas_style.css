@@ -165,7 +165,8 @@ footer {
 
 .text-column {
   max-width: 600px;
-  font-size: 1rem;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 0.8rem;
   line-height: 1.6;
 }
 
