@@ -1,17 +1,19 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
-	<link rel="canonical" href="https://andreopoulos.eu">
+  <meta charset="UTF-8">
+  <title>Home | Prof. Costas Andreopoulos</title>
+  <link rel="stylesheet" href="css/costas_style.css">
+  <link rel="canonical" href="https://andreopoulos.eu">
 </head>
 
-<!--#include FILE="./header.inc"-->
-
 <body>
+    
+    <!-- Header include -->
+    <div id="header"></div>
 
-    <!--#include FILE="./navigation.inc"-->
-    <!--#include FILE="./feed.inc"-->
 
     <div id="MainIn2ColumnPage">
 
@@ -180,7 +182,18 @@
 
     </div> <!-- body in 2-column page -->
 
-   <!--#include FILE="./footer.inc"-->
+    <!-- Footer include -->
+    <div id="footer"></div>
+
+    <script>
+     fetch('includes/header.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('header').innerHTML = text);
+
+     fetch('includes/footer.html')
+       .then(res => res.text())
+       .then(text => document.getElementById('footer').innerHTML = text);
+    </script>
 
   </body>
 </html>
