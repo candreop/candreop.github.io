@@ -176,16 +176,15 @@ footer {
 .news-details { display: table-cell; vertical-align: top; }
 
 .film-strip {
-  background-color: #333; /* dark film background */
+  display: inline-block;           /* make it shrink to fit content */
+  background-color: #333;
   padding: 12px 10px;
   border-top: 4px solid #111;
   border-bottom: 4px solid #111;
   position: relative;
-  margin: 1rem 0;
+  margin: 1rem auto;               /* center it horizontally */
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.6);
-  /*overflow-x: auto;*/
-  /*max-width: 100%;*/
-  text-align: right; /* align content to right */
+  text-align: right;               /* optional: aligns inside content */
 }
 
 .news_photo_gallery {
