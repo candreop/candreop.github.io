@@ -1,4 +1,4 @@
-html {
+hhtml {
  margin: 0;
  padding: 0;
 }
@@ -196,8 +196,8 @@ footer {
 }
 
 .news_photo_gallery img {
-  width: 100px;
-  height: auto;
+  height: 110px;
+  width: auto;
   border: 3px solid white;
   box-shadow: 0 0 2px black;
   flex-shrink: 0; /* prevent images from shrinking */
