@@ -183,16 +183,20 @@ footer {
   position: relative;
   margin: 1rem 0;
   box-shadow: inset 0 2px 4px rgba(0,0,0,0.6);
+  overflow-x: auto;
+  max-width: 100%;
+  text-align: right; /* align content to right */
 }
 
 .news_photo_gallery {
   display: flex;
   gap: 6px;  /* fixed gap between photos */
-  flex-wrap: wrap;
   justify-content: flex-start; /* prevent spacing from stretching */
   flex-wrap: nowrap; /* keep images in one line */
+  flex-direction: row;
   overflow-x: auto;  /* optional: adds horizontal scroll on small screens */
   padding: 5px 0;
+  width: fit-content;
 }
 
 .news_photo_gallery img {
