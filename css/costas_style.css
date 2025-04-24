@@ -217,9 +217,8 @@ footer {
 .film-strip::after {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
   height: 8px;
+  width: 100%;
   background-image: repeating-linear-gradient(
     to right,
     transparent,
@@ -231,10 +230,12 @@ footer {
 
 .film-strip::before {
   top: 0;
+  left: 0;
 }
 
 .film-strip::after {
   bottom: 0;
+  left: 0;
 }
 
 
