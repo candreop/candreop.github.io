@@ -175,6 +175,66 @@ footer {
 }
 .news-details { display: table-cell; vertical-align: top; }
 
+.film-strip {
+  background-color: #333; /* dark film background */
+  padding: 12px 10px;
+  border-top: 4px solid #111;
+  border-bottom: 4px solid #111;
+  position: relative;
+  margin: 1rem 0;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.6);
+}
+
+.news_photo_gallery {
+  display: flex;
+  gap: 6px;  /* fixed gap between photos */
+  flex-wrap: wrap;
+  justify-content: flex-start; /* prevent spacing from stretching */
+  flex-wrap: nowrap; /* keep images in one line */
+  overflow-x: auto;  /* optional: adds horizontal scroll on small screens */
+  padding: 5px 0;
+}
+
+.news_photo_gallery img {
+  width: 100px;
+  height: auto;
+  border: 3px solid white;
+  box-shadow: 0 0 2px black;
+  flex-shrink: 0; /* prevent images from shrinking */
+  filter: grayscale(20%)
+}
+
+.news_photo_gallery img:hover {
+  transform: scale(1.05);
+  filter: none;
+}
+
+/* "Perforation" holes */
+.film-strip::before,
+.film-strip::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent,
+    transparent 6px,
+    #999 6px,
+    #999 10px
+  );
+}
+
+.film-strip::before {
+  top: 0;
+}
+
+.film-strip::after {
+  bottom: 0;
+}
+
+
 <!--
   Contact details page
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -348,59 +408,6 @@ footer {
   margin-right: auto;
   width: 80%;
 }
-
-
-<!--
--->
-
-.film-strip {
-  background-color: #333; /* dark film background */
-  padding: 12px 10px;
-  border-top: 4px solid #111;
-  border-bottom: 4px solid #111;
-  position: relative;
-  margin: 1rem 0;
-  box-shadow: inset 0 2px 4px rgba(0,0,0,0.6);
-}
-
-.news_photo_gallery {
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.news_photo_gallery img {
-  height: 80px;
-  border: 3px solid white;
-  box-shadow: 0 0 2px black;
-}
-
-/* "Perforation" holes */
-.film-strip::before,
-.film-strip::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 8px;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent,
-    transparent 6px,
-    #999 6px,
-    #999 10px
-  );
-}
-
-.film-strip::before {
-  top: 0;
-}
-
-.film-strip::after {
-  bottom: 0;
-}
-
 
 <!--
 .news_photo_gallery {
