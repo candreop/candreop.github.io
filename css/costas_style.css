@@ -7,7 +7,7 @@ body {
  font-family: 'Roboto', Helvetica, sans-serif;
  font-size: 12pt;
  margin: 0;
- padding: 2px 0 0 5px; /* top right bottom left */
+ padding: 0 0 0 5px; /* top right bottom left */
  color: black;
  background:white;
 }
@@ -496,7 +496,7 @@ footer {
 <!--
   Misc other
 -->
-
+/*
 .clsFooter {  
   color: black; font-weight: bold; border-top:1px solid black;
   font-family: 'Roboto', Helvetica, sans-serif; 
@@ -509,6 +509,7 @@ footer {
   font-size:small; 
   border:1px solid #003366; width: 80%; padding: 2px
 }
+*/
 #BorderlessBox {  
   padding:4px;
   overflow:hidden
@@ -535,10 +536,19 @@ footer {
 }
 
 #PageTitle {
- color:#9F000F;
- font-family: 'Roboto', Helvetica, sans-serif;  
- font-size:11pt; 
- font-style: italic;
+  color: black;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 20pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1.2em 0 0.5em;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 4px; 
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* shadow, for depth */
+  background: linear-gradient(to right, #f8f8f8, white); /* background tint */
+  padding: 6px 12px;
+  border-radius: 4px;
 }
 
 .clsLeftMenuBlock {   
