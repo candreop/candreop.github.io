@@ -1,4 +1,4 @@
-hhtml {
+html {
  margin: 0;
  padding: 0;
 }
@@ -7,7 +7,7 @@ body {
  font-family: 'Roboto', Helvetica, sans-serif;
  font-size: 12pt;
  margin: 0;
- padding: 0;
+ padding: 2px 0 0 5px; /* top right bottom left */
  color: black;
  background:white;
 }
